@@ -15,6 +15,8 @@
     left: auto;
   }
 
+  /* First Card */
+
   .card {
     width: 25em;
     margin: auto;
@@ -26,6 +28,8 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     height: 270px;
   }
+
+  /* Second Card */
 
   .card-2 {
     width: 25em;
@@ -40,6 +44,8 @@
     height: 270px;
   }
 
+  /* Third Card */
+
   .card-3 {
     width: 25em;
     margin: auto;
@@ -52,9 +58,11 @@
     height: 270px;
   }
 
+  /* Fourth Card */
+
   .card-4 {
-      position: relative;
-      left: 0.3%;
+    position: relative;
+    left: 0.3%;
     width: 25em;
     margin: auto;
     padding: 10px;
@@ -65,5 +73,92 @@
     background-color: hsl(0, 0%, 98%);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     height: 270px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+
+  /* First Card */
+
+  .card {
+    width: 22em;
+    margin: auto;
+    padding: 10px;
+    margin-top: 5em;
+    border-top: 5px hsl(0, 78%, 62%) solid;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 98%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    height: 270px;
+  }
+
+  .card > img {
+    position: relative;
+    top: 11em;
+    left: 16em;
+  }
+
+  /* Second Card */
+
+  .card-2 {
+    width: 22em;
+    margin: auto;
+    padding: 10px;
+    margin-top: 2em;
+    margin-bottom: auto;
+    border-top: 5px hsl(34, 97%, 64%) solid;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 98%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    height: 270px;
+  }
+
+  .card-2 > img {
+    position: relative;
+    top: 11em;
+    left: 16em;
+  }
+
+  /* Third Card */
+
+  .card-3 {
+    width: 22em;
+    margin: auto;
+    padding: 10px;
+    margin-top: 2em;
+    border-top: 5px hsl(180, 62%, 55%) solid;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 98%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    height: 270px;
+  }
+
+  .card-3 > img {
+    position: relative;
+    top: 11em;
+    left: 16em;
+  }
+
+  /* Fourth Card */
+
+  .card-4 {
+    position: relative;
+    left: 0.3%;
+    width: 22em;
+    margin: auto;
+    padding: 10px;
+    margin-top: 2em;
+    margin-bottom: auto;
+    border-top: 5px hsl(180, 62%, 55%) solid;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 98%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    height: 270px;
+  }
+
+  .card-4 > img {
+    position: relative;
+    top: 11em;
+    left: 16em;
   }
 }
