@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Header Section */
+
+header {
+  text-align: center;
+  display: block;
+  position: relative;
+  top: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+.heading-1 > h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+}
+
+.heading-2 > h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.paragraph-1 {
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+/* Card Section */
+
+/* First Card */
+.card {
+  width: 28%;
+  margin: auto;
+  padding: 10px;
+  margin-top: 5em;
+  border-top: 5px hsl(0, 78%, 62%) solid;
+  border-radius: 10px;
+  background-color: hsl(0, 0%, 98%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 270px;
+}
+
+.card > img {
+  position: relative;
+  top: 11em;
+  left: 17em;
+}
+
+.card > .container-1 {
+  position: relative;
+  bottom: 20px;
+  text-align: left;
+  font-size: 15px;
+  bottom: 2.7em;
+  left: 2em;
+}
+
+/* Second Card */
+
+.card-2 {
+  width: 28%;
+  margin: auto;
+  padding: 10px;
+  margin-top: 2em;
+  margin-bottom: auto;
+  border-top: 5px hsl(34, 97%, 64%) solid;
+  border-radius: 10px;
+  background-color: hsl(0, 0%, 98%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 270px;
+}
+
+.card-2 > img {
+  position: relative;
+  top: 11em;
+  left: 17em;
+}
+
+.card-2 > .container-2 {
+  position: relative;
+  bottom: 20px;
+  text-align: left;
+  font-size: 15px;
+  bottom: 2.7em;
+  left: 2em;
+}
+
+/* Third Card */
+
+.card-3 {
+  width: 28%;
+  margin-bottom: auto;
+  margin-top: -28em;
+  margin-left: 4em;
+  border-top: 5px hsl(180, 62%, 55%) solid;
+  border-radius: 10px;
+  background-color: hsl(0, 0%, 98%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 270px;
+}
+
+.card-3 > img {
+  position: relative;
+  top: 11em;
+  left: 17em;
+}
+
+.card-3 > .container-3 {
+  position: relative;
+  bottom: 20px;
+  text-align: left;
+  font-size: 15px;
+  bottom: 2.7em;
+  left: 2em;
+}
+
+/* Fourth Card */
+
+.card-4 {
+  position: absolute;
+  left: 67%;
+  width: 28%;
+  margin-bottom: auto;
+  margin-top: -17em;
+  border-top: 5px hsl(180, 62%, 55%) solid;
+  border-radius: 10px;
+  background-color: hsl(0, 0%, 98%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 270px;
+}
+
+.card-4 > img {
+  position: relative;
+  top: 11em;
+  left: 17em;
+}
+
+.card-4 > .container-4 {
+  position: relative;
+  bottom: 20px;
+  text-align: left;
+  font-size: 15px;
+  bottom: 2.7em;
+  left: 2em;
+}
